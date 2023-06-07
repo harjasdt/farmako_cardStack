@@ -3,13 +3,12 @@
 	color: aliceblue;
 	position: fixed;
 	top: 10px;
-
 }
 
 #after_animation{
 	position: absolute;
-	 top:1600px; /*form scroll coordinates */
-	 color: white !important;
+	top:1600px; /*form scroll coordinates */
+	color: white !important;
 }
 
 p{
@@ -19,89 +18,44 @@ body {
 	padding-bottom: 200px;
 	padding-top: 30px !important;
 	background-color:black;
-	font-family: 'Arial', sans-serif;
-	
 }
-
-
-
-.container {
-	
-
-	width: 90%;
-	
-}
-
-#cards {
-	list-style: none;
-	padding-left: 0;
-	
-	
-}
-
 
 /* -------------------- */
 .final_pos{
 	position: fixed;
-	left: 25vw;
 	bottom:41%;
 }
-
-
 .initial_pos_card1 {
-
 	position: absolute;
-	left: 25vw;
 	bottom:-10vh;
 }
-
 /* CARD 2---------------- */
 .initial_pos_card2 {
-
-	/* position: absolute; */
-	left: 25vw;
 	bottom:-15%;
 	position: fixed;
 }
 
 .next_pos_card2 {
-
-	/* position: absolute; */
-	left: 25vw;
 	bottom:-69vh;
 	position: absolute;
 }
 
 /* CARD 3---------------- */
 .initial_pos_card3 {
-
 	position: fixed;
-	/* position: absolute; */
-	left: 25vw;
 	bottom:-20%;
 }
 
 .next_pos_card3 {
-
-	/* position: absolute; */
-	 left: 25vw;
-	/* bottom:20vh; */ 
 	top:1020px;
 	position: absolute;
 }
 /* CARD 4-------------- */
 .initial_pos_card4 {
-
-	position: fixed;
-	/* position: absolute; */
-	left: 25vw;
+	position: fixed;;
 	bottom:-25%;
 }
 .next_pos_card4 {
-
-	/* position: absolute; */
-	 left: 25vw;
-	/* bottom:20vh; */ 
 	top:1340px;
 	position: absolute;
 }
@@ -110,7 +64,6 @@ body {
 	background-color: #52B2CF;
 }
 #card2 .card-body {
-	/* background-color: #7EC4CF; */
 	background-color: #E5A36F;
 }
 #card3 .card-body {
@@ -119,14 +72,14 @@ body {
 #card4 .card-body {
 	background-color: #D4AFB9;
 }
-
 .card-body {
 	box-sizing: border-box;
 	padding: 30px;
 	border-radius: 50px;
 	height: 28vh;
 	width: 50vw;
-	
-
+}
+.card{
+	left: 25vw;
 }
 
